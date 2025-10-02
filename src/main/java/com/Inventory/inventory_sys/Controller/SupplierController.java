@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/suppliers")  // ✅ consistent with others
+@RequestMapping("/suppliers")
 @RequiredArgsConstructor
 public class SupplierController {
 

@@ -5,8 +5,8 @@ import lombok.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "orders")  // ✅ avoid reserved word
-@Data                   // ✅ Lombok generates getters/setters/toString
+@Table(name = "orders")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {
